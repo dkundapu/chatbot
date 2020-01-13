@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Liaison Bot!!</title>
+
+<script src="jquery.js"></script>
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet" id="bootstrap-css">
+<script src="bootstrap/js/bootstrap.js"></script> 	
+<link href="style.css" rel="stylesheet">
+<script src="chat.js"></script>
+<script src="function.js"></script>
+</head>
+<!------ Include the above in your HEAD tag ---------->
+<body>
+<div class="container">
+    <div class="row chat-window pull-right" id="chat_window_1" style="margin-left:10px; width: 380px;">
+        <div class="col-xs-12 col-md-12">
+        	<div class="panel panel-default">
+                <div class="panel-heading top-bar">
+                    <div class="col-md-8 col-xs-8">
+                        <h3 class="panel-title"><span class="glyphicon glyphicon-comment"></span> Liaison Chatbot!!</h3>
+                    </div>
+                    <div class="col-md-4 col-xs-4" style="text-align: right;">
+                        <a href="#"><span id="minim_chat_window" class="glyphicon glyphicon-plus panel-collapsed icon_minim"></span></a>
+						<a href="#"><span class="glyphicon glyphicon-fullscreen icon_max"></span></a>
+                        <a href="#"><span class="glyphicon glyphicon-remove icon_close" data-id="chat_window_1"></span></a>
+						
+                    </div>
+                </div><div id="bbooddyy" class="collapse">
+                <div class="panel-body msg_container_base" id="chat_container">
+                    
+                </div>
+                <div class="panel-footer">
+                    <div class="input-group">
+					<!--<form id="input_form">-->
+                        <input id="input" type="text" class="form-control input-sm chat_input" placeholder="Write your message here..." autocomplete="off" autofocus/>
+                        <span class="input-group-btn">
+                        <button class="btn btn-primary btn-sm" id="send" value="Send">Send</button>
+                        </span>
+						<!--</form>-->
+                    </div>
+                </div></div>
+    		</div>
+        </div>
+    </div>
+</div>	
+    <!--
+    <div class="btn-group dropup">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <span class="glyphicon glyphicon-cog"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="#" id="new_chat"><span class="glyphicon glyphicon-plus"></span> Novo</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-list"></span> Ver outras</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-remove"></span> Fechar Tudo</a></li>
+            <li class="divider"></li>
+            <li><a href="#"><span class="glyphicon glyphicon-eye-close"></span> Invisivel</a></li>
+        </ul>
+    </div>-->
+
+</body>
