@@ -79,6 +79,12 @@
 			});	
 			$("#input").val('');
 		}
+		
+		function send_more(text){
+			send_bg(text);
+			$('.next_input').parent().parent().parent().remove();
+		}
+
 		function send_text(text) {
 			if (text == ""){
 				return;

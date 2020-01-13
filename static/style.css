@@ -36,13 +36,15 @@
 .msg_receive{
     padding-left:0;
     margin-left:0;
+    background-color: #213f7b; 
+    color: white;
 }
 .msg_sent{
     padding-bottom:20px !important;
     margin-right:0;
+    background-color: #cbd17b;
 }
 .messages {
-  background: white;
   padding: 10px;
   border-radius: 2px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
@@ -54,7 +56,7 @@
   }
 .messages > time {
     font-size: 11px;
-    color: #ccc;
+    color: white;
 }
 .msg_container {
     padding: 10px;
@@ -130,6 +132,19 @@ img {
     left:0px;
     bottom:0;
 }
+
+.question{
+  width: 98%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #444;
+  text-align: center;
+  margin-top: 5px;
+}
+
+
+
 @-webkit-keyframes heartBeat {
   0% {
     -webkit-transform: scale(1);
